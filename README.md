@@ -56,7 +56,7 @@ Após a criação dos containers as aplicações já podem ser testadas, para is
   - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/getforostjsp** executar o seguinte comando:
   
   ```
-  python getforostjsp.py [output.json]
+  python getforostjsp.py [URL]
   ```
   
-  Sendo o parâmetro **output.json** opcional. Caso ele não seja fornecido, o script utilizará os arquivo padrão contido em seu diretório.
+  Sendo o parâmetro **URL** opcional. Caso ele não seja fornecido, o script utilizará a URL padrão https://esaj.tjsp.jus.br/cpopg/open.do fixada no script.
