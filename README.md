@@ -37,7 +37,7 @@ docker-compose build
 docker-compose up
 ```
 
-E para testar as aplicações:
+Após a criação dos containers as aplicações já podem ser testas:
 
 - Crawler.
   - Após a execução dos comandos Docker citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/csvtojson** executar o seguinte comando:
