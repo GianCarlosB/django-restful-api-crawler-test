@@ -1,22 +1,22 @@
 # django-restful-api-crawler-test
 
-Uma aplicação para testes que consiste em uma API restful em Django, um crawler e um script de conversão de CSV para JSON ambos feitos em Python.
+Uma aplicação multifacetada para testes, que consiste em uma API restful feita com o framework Django, um web crawler e um script de conversão de arquivos CSV para JSON ambos desenvolvidos com a linguagem Python.
 
 # Propostas
 
-- Desenvolver um aplicativo que consiga trazer os nomes dos foros presentes no combobox do link : https://esaj.tjsp.jus.br/cpopg/open.do no formato JSON utilizando a ferramenta requests do python.
+- Desenvolver um aplicativo que consiga trazer os nomes dos foros presentes no combobox do link : https://esaj.tjsp.jus.br/cpopg/open.do no formato JSON utilizando a ferramenta requests do Python.
 
 - Desenvolver uma API com as operações de CRUD em uma base de dados Postgresql, utilizando classes divisões previstas em uma modelagem MVC, bem como a utilização de padrões de projetos.
 
 - Criar uma pipeline de transformação de um arquivo texto fornecido, para um formato json utilizando como base o RabbitMQ como no exemplo a seguir:
 
-  - Do formato csv:
+  - Do formato CSV:
 
   ```
   "00242689020168190087";DANO MORAL;REGIONAL DE ALCANTARA;2020-01-10 00:00:00;Procedimento do Juizado Especial Cível/Fazendário
   ```
 
-  - Para o formato json:
+  - Para o formato JSON:
 
   ```
   {
