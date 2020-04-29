@@ -40,19 +40,6 @@ docker-compose up
 Após a criação dos containers as aplicações já podem ser testadas, para isso bastante seguir as instruções abaixo para cada uma das funcionalidades do projeto:
 
 - Crawler.
-  - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/csvtojson** executar o seguinte comando:
-  
-  ```
-  python csvtojson.py [input.csv] [output.json]
-  ```
-  
-  Sendo os parâmetros **input.csv** e **output.json** opcionais. Caso eles não sejam fornecidos, o script utilizará os arquivos padrão contidos em seu diretório.
-
-- Django restful API.
-  - Após a criação dos containers a API poderá ser acessada através do navegador no link:
-  http://localhost:8000/api/book/
-  
-- Script conversão.
   - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/getforostjsp** executar o seguinte comando:
   
   ```
@@ -60,3 +47,16 @@ Após a criação dos containers as aplicações já podem ser testadas, para is
   ```
   
   Sendo o parâmetro **URL** opcional. Caso ele não seja fornecido, o script utilizará a URL padrão https://esaj.tjsp.jus.br/cpopg/open.do fixada no script.
+
+- Django restful API.
+  - Após a criação dos containers a API poderá ser acessada através do navegador no link:
+  http://localhost:8000/api/book/
+  
+- Script conversão.
+  - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/csvtojson** executar o seguinte comando:
+  
+  ```
+  python csvtojson.py [input.csv] [output.json]
+  ```
+  
+  Sendo os parâmetros **input.csv** e **output.json** opcionais. Caso eles não sejam fornecidos, o script utilizará os arquivos padrão contidos em seu diretório.
