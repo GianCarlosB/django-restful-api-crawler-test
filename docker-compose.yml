@@ -1,0 +1,24 @@
+version: '3'
+services:
+    python:
+        container_name: python
+        build: 
+            context: .
+            dockerfile: docker/python/Dockerfile
+        command: sleep infinity
+    api:
+        container_name: api
+        build: 
+            context: .
+            dockerfile: docker/api/Dockerfile
+        ports:
+            - "8000:8000"
+        depends_on:
+            - postgres
+    postgres:
+        container_name: postgres
+        image: postgres
+        environment:
+            - POSTGRES_DB=restfulapidb
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=pg123
