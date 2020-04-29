@@ -30,8 +30,6 @@ def main():
         url = 'https://esaj.tjsp.jus.br/cpopg/open.do'
         output_file_name = 'output.json'
         
-        if len(sys.argv) >= 3:
-            output_file_name = sys.argv[2]
         if len(sys.argv) >= 2:
             url = sys.argv[1]
 
