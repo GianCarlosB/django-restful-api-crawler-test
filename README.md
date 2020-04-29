@@ -1,6 +1,6 @@
 # django-restful-api-crawler-test
 
-Uma aplicação multifacetada para testes, que consiste em uma API restful feita com o framework Django, um web crawler e um script de conversão de arquivos CSV para JSON ambos desenvolvidos com a linguagem Python.
+Uma aplicação multifacetada para testes, que consiste em uma API restful feita com o framework [Django](https://www.djangoproject.com/), um web crawler e um script de conversão de arquivos CSV para JSON ambos desenvolvidos com a linguagem [Python](https://www.python.org/).
 
 # Propostas
 
@@ -30,7 +30,7 @@ Uma aplicação multifacetada para testes, que consiste em uma API restful feita
 
 # Como usar
 
-Para que a aplicação seja executada via Docker, entre na pasta do projeto e execute os seguintes comandos:
+Para que a aplicação seja executada via [Docker](https://www.docker.com/), entre na pasta do projeto e execute os seguintes comandos:
 
 ```
 docker-compose build
