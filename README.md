@@ -40,7 +40,7 @@ docker-compose up
 Após a criação dos containers as aplicações já podem ser testadas, para isso bastante seguir as instruções abaixo para cada uma das funcionalidades do projeto:
 
 - Crawler.
-  - Após a execução dos comandos Docker citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/csvtojson** executar o seguinte comando:
+  - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/csvtojson** executar o seguinte comando:
   
   ```
   python csvtojson.py [input.csv] [output.json]
@@ -53,7 +53,7 @@ Após a criação dos containers as aplicações já podem ser testadas, para is
   http://localhost:8000/api/book/
   
 - Script conversão.
-  - Após a execução dos comandos Docker citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/getforostjsp** executar o seguinte comando:
+  - Após a execução dos comandos citados acima, acessar via linha de comando o container chamado **python**, e dentro do diretório **/home/getforostjsp** executar o seguinte comando:
   
   ```
   python getforostjsp.py [output.json]
